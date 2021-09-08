@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- подключаем meta, title, css -->
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overlove</title>
+<!-- <link rel="stylesheet" type="text/css" href="../../../node_modules/pixel-glass/styles.css"> -->
+
+<!--подключаем carousel-->
+<!--<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="../../../node_modules/slick-carousel/slick/slick-theme.css">-->
+
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Pixel Glass -->
+<!-- <style>
+    HTML {
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        /* По умолчанию показывается мобильный макет */
+        background-image: url("img/320.png");
+    }
+
+    /* Планшет */
+    @media (min-width: 760px) {
+        HTML {
+            /* Планшетный макет */
+            background-image: url("img/760.png");
+        }
+    }
+
+    /* Десктоп */
+    @media (min-width: 960px) {
+        HTML {
+            /* Десктопный макет */
+            background-image: url("../../img/Overlove.png");
+        }
+    }
+</style> -->
+
+
+<!-- // Pixel Glass -->
+</head>
+
+<body>
+
+	<!-- пример подключения картинок, и html-блоков, удалить перед началом работы -->
+
+	<!-- подключаем шапку -->
+	<header class="header">
+    <div class="container ">
+
+        <nav class="navbar">
+            <a href="" class="logo">
+                <img class="logo__img" src="../../img/logo.svg" alt="logo">
+            </a>
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">How it Works</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Features</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Pricing</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Help</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Blog</a>
+                </li>
+                <!-- <li class="navbar__item">
+                    <a class="navbar__link" href="#">Log In</a>
+                </li> -->
+                <li class="navbar__item navbar__item-options">
+                    <a class="navbar__link" href="#">Log In</a>
+                    <a class="navbar__link navbar__link-singup" href="#">Sing up
+                        <img class="navbar__img" src="../../img/icon-auth.svg" alt="auth">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-wrap">
+                <h2 class="hero__title">
+                    Listen To The
+                    Beat Of The Web
+                </h2>
+                <p class="hero__text">
+                    First template from series templates to design web pages, using components system
+                </p>
+                <button class="hero__btn">Let’s Go</button>
+            </div>
+            <a class="hero__play" href="#">
+                <img class="hero__play-img" src="../../img/icon-play.svg" alt="">
+            </a>
+        </div>
+        <div class="works">
+            <h2 class="works__title">How it works</h2>
+            <div class="works__block">
+                <div class="works__item">
+                    <img class="works__item-img" src="../../img/works/works1.svg" alt="">
+                    <h4 class="works__item-title">Read it</h4>
+                    <p class="works__item-text">Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna.
+                    </p>
+                </div>
+                <div class="works__item">
+                    <img class="works__item-img" src="../../img/works/works2.svg" alt="">
+                    <h4 class="works__item-title">Apply</h4>
+                    <p class="works__item-text">Orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et magna dolore.
+                    </p>
+                </div>
+                <div class="works__item">
+                    <img class="works__item-img" src="../../img/works/works3.svg" alt="">
+                    <h4 class="works__item-title">Multiply</h4>
+                    <p class="works__item-text">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore orem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+	<main class="main">
+
+
+		<section class="testimonial">
+			<div class="container">
+				<h2 class="testimonial__title">Why you'll love it</h2>
+				<div class="testimonial__items">
+					<div class="testimonial__item">
+						<div class="testimonial__item-top">
+							<img class="testimonial__item-avatar" src="../img/avatar1.png" alt="avatar">
+							<div class="testimonial__item-wrap">
+								<h4 class="testimonial__item-title">Sean Farmer</h4>
+								<span class="testimonial__item-special">CEO</span>
+							</div>
+						</div>
+						<p class="testimonial__item-text">Sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum
+							dolor.
+						</p>
+					</div>
+
+					<div class="testimonial__item">
+						<div class="testimonial__item-top">
+							<img class="testimonial__item-avatar" src="../img/avatar2.png" alt="avatar">
+							<div class="testimonial__item-wrap">
+								<h4 class="testimonial__item-title">Nick Parker</h4>
+								<span class="testimonial__item-special">Wed-designer</span>
+							</div>
+						</div>
+						<p class="testimonial__item-text">Orem ipsum dolor sit amet, consectetur adipisicing elit, sed
+							do eiusmod tempor incididunt ut labore et magna dolore.
+						</p>
+					</div>
+
+					<div class="testimonial__item">
+						<div class="testimonial__item-top">
+							<img class="testimonial__item-avatar" src="../img/avatar3.png" alt="avatar">
+							<div class="testimonial__item-wrap">
+								<h4 class="testimonial__item-title">Mishel Latuale</h4>
+								<span class="testimonial__item-special">Project Manager</span>
+							</div>
+						</div>
+						<p class="testimonial__item-text">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore orem.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sliders">
+			<div class="container">
+				<div class="sliders__head">
+
+					<h2 class="sliders__head-title">Project's team</h2>
+					<p class="sliders__head-text">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.Sit
+						amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+					</p>
+
+				</div>
+			</div>
+			<div class="sliders__slider" data-slick='{"slidesToShow": 6, "slidesToScroll": 1}'>
+				<div class="slide">
+					<img src="../img/slider/slide1.png" alt="Партнер1">
+				</div>
+				<div class="slide">
+					<img src="../img/slider/slide2.png" alt="Партнер2">
+				</div>
+				<div class="slide">
+					<img src="../img/slider/slide3.png" alt="Партнер3">
+				</div>
+				<div class="slide">
+					<img src="../img/slider/slide4.png" alt="Партнер4">
+				</div>
+				<div class="slide">
+					<img src="../img/slider/slide5.png" alt="Партнер5">
+				</div>
+				<div class="slide">
+					<img src="../img/slider/slide6.png" alt="Партнер6">
+				</div>
+				<div class="slide">
+					<img src="../img/slider/slide7.png" alt="Партнер7">
+				</div>
+			</div>
+			<!--<div class="sliders__controls">
+			<div class="container">
+				<input id="range" type="range">
+			</div>
+		</div>-->
+		</section>
+
+		<section class="features">
+			<div class="container">
+				<h2 class="features__title">Speed up your design process</h2>
+				<div class="features__list">
+					<div class="features__blk">
+						<img class="features__blk-img" src="../img/features/pic1.png" alt="">
+						<div class="features__blk-info">
+							<h4 class="features__blk-title">Auto Layout </h4>
+							<p class="features__blk-text">Sed do eiusmod tempor incididunt ut consectetur adipisicing
+								elit,do eiusmod tempor incididunt ut labore et dolore
+							</p>
+						</div>
+					</div>
+					<div class="features__blk">
+						<img class="features__blk-img" src="../img/features/pic2.png" alt="">
+						<div class="features__blk-info">
+							<h4 class="features__blk-title">Auto Layout </h4>
+							<p class="features__blk-text">Sed do eiusmod tempor incididunt ut consectetur adipisicing
+								elit,do eiusmod tempor incididunt ut labore et dolore
+							</p>
+						</div>
+					</div>
+					<div class="features__blk">
+						<img class="features__blk-img" src="../img/features/pic3.png" alt="">
+						<div class="features__blk-info">
+							<h4 class="features__blk-title">Auto Layout </h4>
+							<p class="features__blk-text">Sed do eiusmod tempor incididunt ut consectetur adipisicing
+								elit,do eiusmod tempor incididunt ut labore et dolore
+							</p>
+						</div>
+					</div>
+					<div class="features__blk">
+						<img class="features__blk-img" src="../img/features/pic4.png" alt="">
+						<div class="features__blk-info">
+							<h4 class="features__blk-title">Auto Layout </h4>
+							<p class="features__blk-text">Sed do eiusmod tempor incididunt ut consectetur adipisicing
+								elit,do eiusmod tempor incididunt ut labore et dolore
+							</p>
+						</div>
+					</div>
+					<div class="features__blk">
+						<img class="features__blk-img" src="../img/features/pic5.png" alt="">
+						<div class="features__blk-info">
+							<h4 class="features__blk-title">Auto Layout </h4>
+							<p class="features__blk-text">Sed do eiusmod tempor incididunt ut consectetur adipisicing
+								elit,do eiusmod tempor incididunt ut labore et dolore
+							</p>
+						</div>
+					</div>
+					<div class="features__blk">
+						<img class="features__blk-img" src="../img/features/pic6.png" alt="">
+						<div class="features__blk-info">
+							<h4 class="features__blk-title">Auto Layout </h4>
+							<p class="features__blk-text">Sed do eiusmod tempor incididunt ut consectetur adipisicing
+								elit,do eiusmod tempor incididunt ut labore et dolore
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="carousel">
+			<div class="container carousel__container">
+				<input type="radio" id="s-1" name="slider-control" checked>
+				<input type="radio" id="s-2" name="slider-control">
+				<input type="radio" id="s-3" name="slider-control">
+				<input type="radio" id="s-4" name="slider-control">
+				<div class="carousel__slider2">
+					<div class="carousel__slider2-item carousel__slider2-item1">
+						<!--<img src="" alt="Партнер1">-->
+					</div>
+					<div class="carousel__slider2-item carousel__slider2-item2">
+						<!--<img src="../img/carousel-pic1.jpg" alt="Партнер2">-->
+					</div>
+					<div class="carousel__slider2-item carousel__slider2-item3">
+						<!--<img src="../img/carousel-pic1.jpg" alt="Партнер3">-->
+					</div>
+					<div class="carousel__slider2-item carousel__slider2-item4">
+						<!--<img src="" alt="Партнер4">-->
+					</div>
+				</div>
+				<div class="carousel__controls">
+					<h2 class="carousel__controls-title">Enjoy this product</h2>
+					<p class="carousel__controls-text">This project required a huge amount of hours but sit amet,
+						consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+						aliquat
+						enim ad minim.
+					</p>
+
+					<div class="carousel__controls-wrap">
+						<a class="navbar__link navbar__link-singup carousel__link-singup" href="#">Sing up
+
+							<svg class="navbar__img" width="16" height="22" viewBox="0 0 16 22" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.09 9.21988L7.09001 20.6399C6.95265 20.8618 6.71101 20.9977 6.45001 20.9999H6.25001C6.10994 20.9996 5.97614 20.9418 5.88001 20.8399C5.78437 20.7376 5.73706 20.5993 5.75001 20.4599L6.31001 13.9999H2.74001C2.47142 13.997 2.2243 13.8525 2.09001 13.6199L1.90001 13.2899C1.80457 13.1333 1.80457 12.9365 1.90001 12.7799L8.90001 1.35988C9.0411 1.13185 9.29191 0.995045 9.56001 0.99988H9.76001C9.90008 1.00014 10.0339 1.058 10.13 1.15988C10.2256 1.26215 10.273 1.40046 10.26 1.53988L9.69001 7.99988H13.26C13.5286 8.00278 13.7757 8.14725 13.91 8.37988L14.1 8.70988C14.1924 8.86835 14.1885 9.06515 14.09 9.21988Z"
+									stroke="#373737" stroke-width="2" />
+							</svg>
+						</a>
+
+						<div class="carousel__controls-dots">
+							<label class="s-c-1" for="s-1"></label>
+							<label class="s-c-2" for="s-2"></label>
+							<label class="s-c-3" for="s-3"></label>
+							<label class="s-c-4" for="s-4"></label>
+						</div>
+						<div class="carousel__controls-arrows">
+							<a class="controls-arrow-prev" href="#">
+								<img src="../img/arrow-prev.svg" alt="arrow-next">
+							</a>
+							<a class="controls-arrow-next" href="#">
+								<img src="../img/arrow-next.svg" alt="arrow-prev">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="team">
+			<div class="container">
+				<div class="team__head">
+					<div class="team__head-left">
+						<h2 class="team__head-title">Project's team</h2>
+						<p class="team__head-text">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.Sit
+							amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+						</p>
+					</div>
+					<button class="hero__btn">Join our team</button>
+				</div>
+
+				<div class="team__section">
+					<div class="team__section-blk  team__section-blk--member1">
+						<div class="team__blk-info">
+							<h4 class="team__blk-title">Pieter Omvlee</h4>
+							<span class="team__blk-special">Designer</span>
+							<div class="team__social-icons">
+								<a class="team__icon" href="#">
+									<img src="../img/instagramhover.svg" alt="instagram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/telegramhover.svg" alt="telegram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/linkedinhover.svg" alt="linkedin">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="team__section-blk  team__section-blk--member2">
+						<div class="team__blk-info">
+							<h4 class="team__blk-title">Loyd Maywe</h4>
+							<span class="team__blk-special">Php developer</span>
+							<div class="team__social-icons">
+								<a class="team__icon" href="#">
+									<img src="../img/instagramhover.svg" alt="instagram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/telegramhover.svg" alt="telegram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/linkedinhover.svg" alt="linkedin">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="team__section-blk  team__section-blk--member3">
+						<div class="team__blk-info">
+							<h4 class="team__blk-title">Latte Macchiato</h4>
+							<span class="team__blk-special">CEO Company</span>
+							<div class="team__social-icons">
+								<a class="team__icon" href="#">
+									<img src="../img/instagramhover.svg" alt="instagram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/telegramhover.svg" alt="telegram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/linkedinhover.svg" alt="linkedin">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="team__section-blk  team__section-blk--member4">
+						<div class="team__blk-info">
+							<h4 class="team__blk-title">Cheese Cake</h4>
+							<span class="team__blk-special">Art Director</span>
+							<div class="team__social-icons">
+								<a class="team__icon" href="#">
+									<img src="../img/instagramhover.svg" alt="instagram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/telegramhover.svg" alt="telegram">
+								</a>
+								<a class="team__icon" href="#">
+									<img src="../img/linkedinhover.svg" alt="linkedin">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+		<section class="cta">
+			<h2 class="cta__title">Download the future</h2>
+			<p class="cta__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliquat enim ad minim.</p>
+			<div class="footer__sabscription">
+				<label>
+					<input class="footer__newsletter-input" type="text" placeholder="Input text placeholder">
+				</label>
+				<a class="navbar__link navbar__link-singup navbar__link-singup--footer" href="">Sing up
+					<img class="navbar__img" src="../../img/icon-auth.svg" alt="auth">
+				</a>
+			</div>
+			<div class="cta__company-icons">
+				<a class="cta__company-icon" href="#">
+					<img src="../img/benher.svg" alt="benher">
+				</a>
+				<a class="cta__company-icon" href="#">
+					<img src="../img/dribbble.svg" alt="dribble">
+				</a>
+				<a class="cta__company-icon" href="#">
+					<img src="../img/instagrambottom.svg" alt="instagram">
+				</a>
+			</div>
+		</section>
+	</main>
+
+
+
+	<!-- подключаем подвал -->
+	<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <ul class="footer__links">
+                <li class="footer__item">
+                    <h4 class="footer__item-title">Product</h4>
+                    <a class="footer__link" href="#">
+                        How it works
+                    </a>
+                    <a class="footer__link" href="#">
+                        Features
+                    </a>
+                    <a class="footer__link" href="#">
+                        Pricing
+                    </a>
+                    <a class="footer__link" href="#">
+                        Testimonials
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__item-title">About form</h4>
+                    <a class="footer__link" href="#">
+                        Our team
+                    </a>
+                    <a class="footer__link" href="#">
+                        Careers
+                    </a>
+                    <a class="footer__link" href="#">
+                        Press
+                    </a>
+                    <a class="footer__link" href="#">
+                        Stores
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__item-title">Connect</h4>
+                    <a class="footer__link" href="#">
+                        Facebook
+                    </a>
+                    <a class="footer__link" href="#">
+                        Twitter
+                    </a>
+                    <a class="footer__link" href="#">
+                        Instagram
+                    </a>
+                    <a class="footer__link" href="#">
+                        Linkedin
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__item-title">Contact</h4>
+                    <address>
+                        <a class="footer__link" href="mailto:info@gmail.com">
+                            info@gmail.com
+                        </a>
+                        <a class="footer__link" href="tel:+000-000-0000">
+                            000-000-0000
+                        </a>
+                        <a class="footer__link" href="#">
+                            0000 Willa River Suite 000
+                        </a>
+                    </address>
+                </li>
+            </ul>
+            <div class="footer__newsletter">
+                <h4 class="footer__item-title">Newsletter</h4>
+                <p class="footer__newsletter-text">Join our weekly maiiling list</p>
+                <div class="footer__sabscription">
+                    <label>
+                        <span class="footer__newsletter-span">Name *</span>
+                        <input class="footer__newsletter-input" type="text" placeholder="Input text placeholder">
+                    </label>
+                    <a class="navbar__link navbar__link-singup navbar__link-singup--footer" href="">Sing up
+                        <img class="navbar__img" src="../../img/icon-auth.svg" alt="auth">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright-block">
+            <a class="copyright-block__link" href="#">Terms and conditions</a>
+            <a class="copyright-block__link" href="#">Legal</a>
+            <a class="copyright-block__link" href="#">Pattents</a>
+            <a class="copyright-block__link copyright-block__link--copy" href="#">Designed to be loved © 2008-2021</a>
+        </div>
+    </div>
+</footer>
+
+
+	<!-- подключаем js -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<!--
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+-->
+
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
